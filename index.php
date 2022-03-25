@@ -1,27 +1,29 @@
-<?php 
+<?php
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>E-Learning Site</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="WebUni Education Template">
 	<meta name="keywords" content="webuni, education, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
-	<link href="img/head.jpg" rel="shortcut icon"/>
+	<!-- Favicon -->
+	<link href="img/head.jpg" rel="shortcut icon" />
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+	<link rel="stylesheet" href="css/style.css" />
 
 </head>
+
 <body>
 	<!-- Page Preloder -->
 	<div id="preloder">
@@ -41,14 +43,14 @@
 					</div>
 				</div>
 				<div class="col-lg-9 col-md-9">
-					<a href="" class="site-btn header-btn">Login</a>
+					<a href="login.php" class="site-btn header-btn">Login</a>
 					<nav class="main-menu">
 						<ul>
 							<li><a href="index.php">Home</a></li>
 							<li><a href="courses.php">Courses</a></li>
 							<li><a href="blog.php">News</a></li>
 							<li><a href="contact.php">Contact</a></li>
-							<li><a href="#">About us</a></li>
+							<li><a href="contact.php">About us</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -68,7 +70,7 @@
 			<div class="row">
 				<div class="col-lg-10 offset-lg-1">
 					<form class="intro-newslatter">
-						<button class="site-btn">Sign Up Now</button>
+						<a href="login.php" class="site-btn">Sign Up Now</a>
 					</form>
 				</div>
 			</div>
@@ -82,72 +84,72 @@
 		<div class="container">
 			<div class="section-title">
 				<h2>Our Course Categories</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus faucibus finibus.</p>
+				<p>“In order to create an engaging learning experience, the role of instructor is optional, but the role of learner is essential.” - Bernard Bull</p>
 			</div>
 			<div class="row">
 				<!-- categorie -->
 				<div class="col-lg-4 col-md-6">
 					<div class="categorie-item">
-						<div class="ci-thumb set-bg" data-setbg="img/categories/1.jpg"></div>
+						<div class="ci-thumb set-bg" data-setbg="img/categories/coding.jpg"></div>
 						<div class="ci-text">
-							<h5>IT Development</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur</p>
-							<span>120 Courses</span>
+							<h5>Coding</h5>
+							<p>“First, solve the problem. Then, write the code.” – John Johnson</p>
+							<span>5 Courses</span>
 						</div>
 					</div>
 				</div>
 				<!-- categorie -->
 				<div class="col-lg-4 col-md-6">
 					<div class="categorie-item">
-						<div class="ci-thumb set-bg" data-setbg="img/categories/2.jpg"></div>
+						<div class="ci-thumb set-bg" data-setbg="img/categories/adobe.jpg"></div>
 						<div class="ci-text">
 							<h5>Web Design</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur</p>
-							<span>70 Courses</span>
+							<p>“Design is not just what it looks like and feels like. Design is how it works.” –Steve Jobs</p>
+							<span>5 Courses</span>
 						</div>
 					</div>
 				</div>
 				<!-- categorie -->
 				<div class="col-lg-4 col-md-6">
 					<div class="categorie-item">
-						<div class="ci-thumb set-bg" data-setbg="img/categories/3.jpg"></div>
+						<div class="ci-thumb set-bg" data-setbg="img/categories/dev.jpg"></div>
 						<div class="ci-text">
-							<h5>Illustration & Drawing</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur</p>
-							<span>55 Courses</span>
+							<h5>Development</h5>
+							<p>"If there is no struggle, there is no progress." - Frederick Douglass</p>
+							<span>5 Courses</span>
 						</div>
 					</div>
 				</div>
 				<!-- categorie -->
 				<div class="col-lg-4 col-md-6">
 					<div class="categorie-item">
-						<div class="ci-thumb set-bg" data-setbg="img/categories/4.jpg"></div>
+						<div class="ci-thumb set-bg" data-setbg="img/categories/email.jpg"></div>
 						<div class="ci-text">
-							<h5>Social Media</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur</p>
-							<span>40 Courses</span>
+							<h5>Email Marketing</h5>
+							<p>“Personalization—it is not about first/last name. It’s about relevant content.” – Dan Jak</p>
+							<span>2 Courses</span>
 						</div>
 					</div>
 				</div>
 				<!-- categorie -->
 				<div class="col-lg-4 col-md-6">
 					<div class="categorie-item">
-						<div class="ci-thumb set-bg" data-setbg="img/categories/5.jpg"></div>
+						<div class="ci-thumb set-bg" data-setbg="img/categories/hack.jpg"></div>
 						<div class="ci-text">
-							<h5>Photoshop</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur</p>
-							<span>220 Courses</span>
+							<h5>Ethical Hacking</h5>
+							<p>A hacker is someone who uses a combination of high-tech cybertools and social engineering to gain illicit access to someone else's data.
+								- John McAfee</p>
+							<span>1 Courses</span>
 						</div>
 					</div>
-				</div>
-				<!-- categorie -->
+				</div><!-- categorie -->
 				<div class="col-lg-4 col-md-6">
 					<div class="categorie-item">
-						<div class="ci-thumb set-bg" data-setbg="img/categories/6.jpg"></div>
+						<div class="ci-thumb set-bg" data-setbg="img/categories/english.jpg"></div>
 						<div class="ci-text">
-							<h5>Cryptocurrencies</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur</p>
-							<span>25 Courses</span>
+							<h5>English Grammer</h5>
+							<p>“Cowards die many times before their deaths; The valiant never taste of death but once.” -  Shakespeare </p>
+							<span>3 Courses</span>
 						</div>
 					</div>
 				</div>
@@ -212,7 +214,7 @@
 				</div>
 			</div>
 		</div>
-	</footer> 
+	</footer>
 	<!-- footer section end -->
 
 
@@ -223,4 +225,5 @@
 	<script src="js/circle-progress.min.js"></script>
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/main.js"></script>
+
 </html>

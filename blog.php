@@ -1,13 +1,15 @@
+<?php 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>WebUni - Education Template</title>
+	<title>E-Learning Site</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="WebUni Education Template">
 	<meta name="keywords" content="webuni, education, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->   
-	<link href="img/favicon.ico" rel="shortcut icon"/>
+	<link href="img/head.jpg" rel="shortcut icon"/>
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
@@ -18,12 +20,6 @@
 	<link rel="stylesheet" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
 
-
-	<!--[if lt IE 9]>
-	  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
-
 </head>
 <body>
 	<!-- Page Preloder -->
@@ -31,28 +27,27 @@
 		<div class="loader"></div>
 	</div>
 
-
 	<!-- Header section -->
 	<header class="header-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-3 col-md-3">
 					<div class="site-logo">
-						<img src="img/logo.png" alt="">
+						<img src="img/main-logo.png" alt="">
 					</div>
 					<div class="nav-switch">
 						<i class="fa fa-bars"></i>
 					</div>
 				</div>
 				<div class="col-lg-9 col-md-9">
-					<a href="" class="site-btn header-btn">Login</a>
+					<a href="login.php" class="site-btn header-btn">Login</a>
 					<nav class="main-menu">
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="#">About us</a></li>
-							<li><a href="courses.html">Courses</a></li>
-							<li><a href="blog.html">News</a></li>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="index.php">Home</a></li>
+							<li><a href="courses.php">Courses</a></li>
+							<li><a href="blog.php">News</a></li>
+							<li><a href="contact.php">Contact</a></li>
+							<li><a href="contact.php">About us</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -66,36 +61,12 @@
 	<div class="page-info-section set-bg" data-setbg="img/page-bg/3.jpg">
 		<div class="container">
 			<div class="site-breadcrumb">
-				<a href="#">Home</a>
+				<a href="index.php">Home</a>
 				<span>Blog</span>
 			</div>
 		</div>
 	</div>
 	<!-- Page info end -->
-
-
-	<!-- search section -->
-	<section class="search-section ss-other-page">
-		<div class="container">
-			<div class="search-warp">
-				<div class="section-title text-white">
-					<h2><span>Search your course</span></h2>
-				</div>
-				<div class="row">
-					<div class="col-lg-10 offset-lg-1">
-						<!-- search form -->
-						<form class="course-search-form">
-							<input type="text" placeholder="Course">
-							<input type="text" class="last-m" placeholder="Category">
-							<button class="site-btn btn-dark">Search Couse</button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- search section end -->
-
 
 	<!-- Page  -->
 	<section class="blog-page spad pb-0">
@@ -302,7 +273,6 @@
 					<li><a href="#">Register</a></li>
 					<li><a href="#">Privacy</a></li>
 				</ul>
-				<div class="copyright"><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></div>
 			</div>
 		</div>
 	</footer> 
