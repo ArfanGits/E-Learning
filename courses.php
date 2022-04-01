@@ -1,27 +1,29 @@
-<?php 
+<?php
 
 ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<title>E-Learning Site</title>
+	<title>E-Learning Site | Courses </title>
 	<meta charset="UTF-8">
 	<meta name="description" content="WebUni Education Template">
 	<meta name="keywords" content="webuni, education, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<!-- Favicon -->   
-	<link href="img/head.jpg" rel="shortcut icon"/>
+	<!-- Favicon -->
+	<link href="img/head.jpg" rel="shortcut icon" />
 
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
 
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/font-awesome.min.css"/>
-	<link rel="stylesheet" href="css/owl.carousel.css"/>
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/owl.carousel.css" />
+	<link rel="stylesheet" href="css/style.css" />
 
 </head>
+
 <body>
 	<!-- Page Preloder -->
 	<div id="preloder">
@@ -41,7 +43,7 @@
 					</div>
 				</div>
 				<div class="col-lg-9 col-md-9">
-					<a href="login.php" class="site-btn header-btn">Login</a>
+					<!-- <a href="login.php" class="site-btn header-btn">Login</a> -->
 					<nav class="main-menu">
 						<ul>
 							<li><a href="index.php">Home</a></li>
@@ -102,22 +104,22 @@
 				<li class="control" data-filter=".design">Web Design</li>
 				<li class="control" data-filter=".web">Web Development</li>
 				<li class="control" data-filter=".photo">Ethical Hacking</li>
-			</ul>                                       
+			</ul>
 			<div class="row course-items-area">
 				<!-- course -->
 				<div class="mix col-lg-3 col-md-4 col-sm-6 finance">
 					<div class="course-item">
 						<div class="course-thumb set-bg" data-setbg="img/courses/1.jpg">
-							<div class="price">Price: 1500৳</div>
+							<div class="price">Price: 3000৳</div>
 						</div>
 						<div class="course-info">
 							<div class="course-text">
 								<h5>C/C++</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
-								<div class="students">120 Students</div>
+								<p>“If you think it's simple, then you have misunderstood the problem.”― Bjarne Stroustrup</p>
+								<div class="students">70 Students</div>
 							</div>
 							<center>
-								<a href="" class="site-btn">Join Now</a>
+								<a href="buy.php" class="site-btn">Join Now</a>
 							</center>
 							<div class="course-author">
 								<div class="ca-pic set-bg" data-setbg="img/authors/pro.jpg"></div>
@@ -135,11 +137,12 @@
 						<div class="course-info">
 							<div class="course-text">
 								<h5>Illustrator & Photoshop</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
+								<p>“When you have a dream, you’ve got to grab it and never let go.”
+								<br>	— Carol Burnett</p>
 								<div class="students">120 Students</div>
 							</div>
 							<center>
-								<a href="" class="site-btn">Join Now</a>
+								<a href="buy.php" class="site-btn">Join Now</a>
 							</center>
 							<div class="course-author">
 								<div class="ca-pic set-bg" data-setbg="img/authors/pro.jpg"></div>
@@ -157,11 +160,12 @@
 						<div class="course-info">
 							<div class="course-text">
 								<h5>MERN Stack</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
-								<div class="students">120 Students</div>
+								<p>“Nothing is impossible. The word itself says ‘I’m possible!'” <br>
+									— Audrey Hepburn</p>
+								<div class="students">57 Students</div>
 							</div>
 							<center>
-								<a href="" class="site-btn">Join Now</a>
+								<a href="buy.php" class="site-btn">Join Now</a>
 							</center>
 							<div class="course-author">
 								<div class="ca-pic set-bg" data-setbg="img/authors/pro.jpg"></div>
@@ -179,11 +183,12 @@
 						<div class="course-info">
 							<div class="course-text">
 								<h5>Account Cracking</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
+								<p>“The bad news is time flies. The good news is you’re the pilot.”
+									— Michael Altshuler</p>
 								<div class="students">120 Students</div>
 							</div>
 							<center>
-								<a href="" class="site-btn">Join Now</a>
+								<a href="buy.php" class="site-btn">Join Now</a>
 							</center>
 							<div class="course-author">
 								<div class="ca-pic set-bg" data-setbg="img/authors/pro.jpg"></div>
@@ -201,11 +206,12 @@
 						<div class="course-info">
 							<div class="course-text">
 								<h5>Python</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
-								<div class="students">120 Students</div>
+								<p>“Keep your face always toward the sunshine, and shadows will fall behind you.”
+									— Walt Whitman</p>
+								<div class="students">25 Students</div>
 							</div>
 							<center>
-								<a href="" class="site-btn">Join Now</a>
+								<a href="buy.php" class="site-btn">Join Now</a>
 							</center>
 							<div class="course-author">
 								<div class="ca-pic set-bg" data-setbg="img/authors/pro.jpg"></div>
@@ -223,11 +229,12 @@
 						<div class="course-info">
 							<div class="course-text">
 								<h5>Adobe Premier Pro</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
-								<div class="students">120 Students</div>
+								<p>“You are never too old to set another goal or to dream a new dream.”
+									— Malala Yousafzai</p>
+								<div class="students">100 Students</div>
 							</div>
 							<center>
-								<a href="" class="site-btn">Join Now</a>
+								<a href="buy.php" class="site-btn">Join Now</a>
 							</center>
 							<div class="course-author">
 								<div class="ca-pic set-bg" data-setbg="img/authors/pro.jpg"></div>
@@ -245,11 +252,12 @@
 						<div class="course-info">
 							<div class="course-text">
 								<h5>Python & Django</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
-								<div class="students">120 Students</div>
+								<p>“You can be everything. You can be the infinite amount of things that people are.”
+									— Kesha</p>
+								<div class="students">20 Students</div>
 							</div>
 							<center>
-								<a href="" class="site-btn">Join Now</a>
+								<a href="buy.php" class="site-btn">Join Now</a>
 							</center>
 							<div class="course-author">
 								<div class="ca-pic set-bg" data-setbg="img/authors/pro.jpg"></div>
@@ -267,11 +275,12 @@
 						<div class="course-info">
 							<div class="course-text">
 								<h5>Hacking & Cyber Security</h5>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
-								<div class="students">120 Students</div>
+								<p>“Belief creates the actual fact.”
+								<br>	— William James</p> 
+								<div class="students">80 Students</div> <br>
 							</div>
 							<center>
-								<a href="" class="site-btn">Join Now</a>
+								<a href="buy.php" class="site-btn">Join Now</a>
 							</center>
 							<div class="course-author">
 								<div class="ca-pic set-bg" data-setbg="img/authors/pro.jpg"></div>
@@ -282,7 +291,7 @@
 				</div>
 			</div>
 			<div class="featured-courses">
-				
+
 			</div>
 		</div>
 	</section>
@@ -290,46 +299,46 @@
 
 
 	<!-- footer section -->
-	<footer class="footer-section spad pb-0">
+	<footer class="footer-section spad">
 		<div class="footer-top">
 			<div class="footer-warp">
 				<div class="row">
 					<div class="widget-item">
 						<h4>Contact Info</h4>
 						<ul class="contact-list">
-							<li>1481 Creekside Lane <br>Avila Beach, CA 931</li>
-							<li>+53 345 7953 32453</li>
-							<li>yourmail@gmail.com</li>
+							<li>Chittagong, Bangladesh</li>
+							<li>+880 181 8786108</li>
+							<li>alpharfan07@gmail.com</li>
 						</ul>
 					</div>
 					<div class="widget-item">
-						<h4>Engeneering</h4>
+						<h4>Coding</h4>
 						<ul>
-							<li><a href="">Applied Studies</a></li>
-							<li><a href="">Computer Engeneering</a></li>
-							<li><a href="">Software Engeneering</a></li>
-							<li><a href="">Informational Engeneering</a></li>
-							<li><a href="">System Engeneering</a></li>
+							<li><a href="">C/C++</a></li>
+							<li><a href="">Python</a></li>
+							<li><a href="">JavaScript</a></li>
+							<li><a href="">C#</a></li>
+							<li><a href="">Java</a></li>
 						</ul>
 					</div>
 					<div class="widget-item">
 						<h4>Graphic Design</h4>
 						<ul>
-							<li><a href="">Applied Studies</a></li>
-							<li><a href="">Computer Engeneering</a></li>
-							<li><a href="">Software Engeneering</a></li>
-							<li><a href="">Informational Engeneering</a></li>
-							<li><a href="">System Engeneering</a></li>
+							<li><a href="">Adobe Illustrator</a></li>
+							<li><a href="">Adobe Photoshop</a></li>
+							<li><a href="">Adobe UI/UX</a></li>
+							<li><a href="">Adobe InDesign</a></li>
+							<li><a href="">Adobe Premier</a></li>
 						</ul>
 					</div>
 					<div class="widget-item">
 						<h4>Development</h4>
 						<ul>
-							<li><a href="">Applied Studies</a></li>
-							<li><a href="">Computer Engeneering</a></li>
-							<li><a href="">Software Engeneering</a></li>
-							<li><a href="">Informational Engeneering</a></li>
-							<li><a href="">System Engeneering</a></li>
+							<li><a href="">MERN Stack</a></li>
+							<li><a href="">PHP and Laravel</a></li>
+							<li><a href="">Python and Django</a></li>
+							<li><a href="">Asp.net</a></li>
+							<li><a href="">Flutter</a></li>
 						</ul>
 					</div>
 					<div class="widget-item">
@@ -343,16 +352,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="footer-bottom">
-			<div class="footer-warp">
-				<ul class="footer-menu">
-					<li><a href="#">Terms & Conditions</a></li>
-					<li><a href="#">Register</a></li>
-					<li><a href="#">Privacy</a></li>
-				</ul>
-			</div>
-		</div>
-	</footer> 
+	</footer>
 	<!-- footer section end -->
 
 
@@ -364,4 +364,5 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
+
 </html>

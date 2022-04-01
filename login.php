@@ -1,8 +1,8 @@
 <?php
 
-// if (session_status() == PHP_SESSION_NONE) {
-//     session_start();
-// }
+if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
 ?>
 
 <!DOCTYPE html>
@@ -21,8 +21,8 @@
     <div class="wrapper">
         <div class="fs-4 text-success">
             <?php
-            //echo $_SESSION['message'];
-            //$_SESSION['message'] = "";
+            echo $_SESSION['message'];
+            $_SESSION['message'] = "";
             ?>
         </div>
         <div class="title-text">

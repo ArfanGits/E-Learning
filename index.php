@@ -59,7 +59,6 @@
 	</header>
 	<!-- Header section end -->
 
-
 	<!-- Hero section -->
 	<section class="hero-section set-bg" data-setbg="img/bg.jpg">
 		<div class="container">
@@ -70,14 +69,15 @@
 			<div class="row">
 				<div class="col-lg-10 offset-lg-1">
 					<form class="intro-newslatter">
-						<a href="login.php" class="site-btn">Sign Up Now</a>
+						<center>
+							<a href="login.php" class="site-btn">Sign Up Now</a>
+						</center>
 					</form>
 				</div>
 			</div>
 		</div>
 	</section>
 	<!-- Hero section end -->
-
 
 	<!-- categories section -->
 	<section class="categories-section spad">
@@ -148,7 +148,7 @@
 						<div class="ci-thumb set-bg" data-setbg="img/categories/english.jpg"></div>
 						<div class="ci-text">
 							<h5>English Grammer</h5>
-							<p>“Cowards die many times before their deaths; The valiant never taste of death but once.” -  Shakespeare </p>
+							<p>“Cowards die many times before their deaths; The valiant never taste of death but once.” - Shakespeare </p>
 							<span>3 Courses</span>
 						</div>
 					</div>
@@ -157,8 +157,6 @@
 		</div>
 	</section>
 	<!-- categories section end -->
-
-
 
 	<!-- footer section -->
 	<footer class="footer-section spad">
